@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
     "@prismicio/client": "^5.1.0",
@@ -20,7 +21,16 @@
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
     "sass": "^1.35.1",
-    "stripe": "^8.156.0"
+    "stripe": "^8.156.0",
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "babel-jest": "^27.4.6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.4.7",
+    "jest-dom": "^4.0.0",
+    "jest-mock": "^27.4.6",
+    "jest-transform-stub": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^15.12.4",
